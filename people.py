@@ -20,6 +20,20 @@ hiddenpeople = {'Paul': {'bald': False, 'beard': False, 'eyes': 'brown', 'gender
                           'hat': False, 'glasses': False, 'moustache': False},
                 'Sam': {'bald': True, 'beard': False, 'eyes': 'brown', 'gender': 'boy', 'hair': 'white', 'hat': False,
                         'glasses': True, 'moustache': False},
+                'Maria': {'bald': False, 'beard': False, 'eyes': 'brown', 'gender': 'girl', 'hair': 'brown',
+                          'hat': True, 'glasses': False, 'moustache': False},
+                'Robert': {'bald': False, 'beard': False, 'eyes': 'blue', 'gender': 'boy', 'hair': 'brown',
+                           'hat': False, 'glasses': False, 'moustache': False},
+                'Alex': {'bald': False, 'beard': False, 'eyes': 'brown', 'gender': 'boy', 'hair': 'black', 'hat': False,
+                         'glasses': False, 'moustache': True},
+                'Charles': {'bald': False, 'beard': False, 'eyes': 'brown', 'gender': 'boy', 'hair': 'blonde',
+                            'hat': False, 'glasses': False, 'moustache': True},
+                'Philip': {'bald': False, 'beard': True, 'eyes': 'brown', 'gender': 'boy', 'hair': 'black',
+                           'hat': False, 'glasses': False, 'moustache': False},
+                'David': {'bald': False, 'beard': True, 'eyes': 'brown', 'gender': 'boy', 'hair': 'blonde',
+                           'hat': False, 'glasses': False, 'moustache': False},
+                'Eric': {'bald': False, 'beard': False, 'eyes': 'brown', 'gender': 'boy', 'hair': 'blonde',
+                           'hat': True, 'glasses': False, 'moustache': False},
                 }
 
 for person in hiddenpeople:
