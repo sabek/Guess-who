@@ -1,4 +1,9 @@
-hiddenpeople = {'Paul': {'bald': False, 'beard': False, 'eyes': 'brown', 'gender': 'man', 'hair': 'white', 'hat': False,
+class HiddenPeople():
+    """Class for holding information on people"""
+
+    def __init__(self):
+        self.people = {
+                'Paul': {'bald': False, 'beard': False, 'eyes': 'brown', 'gender': 'man', 'hair': 'white', 'hat': False,
                          'glasses': True, 'moustache': False},
                 'Richard': {'bald': True, 'beard': True, 'eyes': 'brown', 'gender': 'man', 'hair': 'brown',
                             'hat': False, 'glasses': False, 'moustache': True},
@@ -46,3 +51,11 @@ hiddenpeople = {'Paul': {'bald': False, 'beard': False, 'eyes': 'brown', 'gender
                            'glasses': False, 'moustache': False},
                 'Claire': {'bald': False, 'beard': False, 'eyes': 'brown', 'gender': 'girl', 'hair': 'red', 'hat': True,
                            'glasses': True, 'moustache': False}}
+
+    def removeperson(self, person):
+        """Remove a person from listing of people to choose"""
+        del self.people[person]
+
+    def printpeople(self):
+        for person in self.people:
+            print(person + ": " + str(self.people[person]))
