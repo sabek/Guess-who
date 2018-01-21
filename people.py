@@ -31,11 +31,18 @@ hiddenpeople = {'Paul': {'bald': False, 'beard': False, 'eyes': 'brown', 'gender
                 'Philip': {'bald': False, 'beard': True, 'eyes': 'brown', 'gender': 'boy', 'hair': 'black',
                            'hat': False, 'glasses': False, 'moustache': False},
                 'David': {'bald': False, 'beard': True, 'eyes': 'brown', 'gender': 'boy', 'hair': 'blonde',
-                           'hat': False, 'glasses': False, 'moustache': False},
+                          'hat': False, 'glasses': False, 'moustache': False},
                 'Eric': {'bald': False, 'beard': False, 'eyes': 'brown', 'gender': 'boy', 'hair': 'blonde',
-                           'hat': True, 'glasses': False, 'moustache': False},
-                }
-
-for person in hiddenpeople:
-    # if not hiddenpeople[person]['beard']:
-    print(person + ': ' + str(hiddenpeople[person]))
+                         'hat': True, 'glasses': False, 'moustache': False},
+                'Bill': {'bald': True, 'beard': True, 'eyes': 'brown', 'gender': 'boy', 'hair': 'red',
+                         'hat': False, 'glasses': False, 'moustache': False},
+                'Alfred': {'bald': False, 'beard': False, 'eyes': 'blue', 'gender': 'boy', 'hair': 'red', 'hat': False,
+                           'glasses': False, 'moustache': True},
+                'Anita': {'bald': False, 'beard': False, 'eyes': 'blue', 'gender': 'girl', 'hair': 'white',
+                          'hat': False, 'glasses': False, 'moustache': False},
+                'Max': {'bald': False, 'beard': False, 'eyes': 'brown', 'gender': 'boy', 'hair': 'black', 'hat': False,
+                        'glasses': False, 'moustache': True},
+                'Herman': {'bald': True, 'beard': False, 'eyes': 'brown', 'gender': 'boy', 'hair': 'red', 'hat': False,
+                           'glasses': False, 'moustache': False},
+                'Claire': {'bald': False, 'beard': False, 'eyes': 'brown', 'gender': 'girl', 'hair': 'red', 'hat': True,
+                           'glasses': True, 'moustache': False}}
