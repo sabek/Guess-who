@@ -52,9 +52,14 @@ class HiddenPeople():
                 'Claire': {'bald': False, 'beard': False, 'eyes': 'brown', 'gender': 'girl', 'hair': 'red', 'hat': True,
                            'glasses': True, 'moustache': False}}
 
-    def removeperson(self, person):
+    def removeperson(self, attribute):
         """Remove a person from listing of people to choose"""
-        del self.people[person]
+        removelist = []
+        for person in self.people:
+            if self.people[person][attribute]:
+                removelist.append(person)
+        for person in removelist:
+            del self.people[person]
 
     def printpeople(self):
         for person in self.people:

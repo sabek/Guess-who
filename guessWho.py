@@ -1,9 +1,10 @@
 from people import HiddenPeople
 
 peoplelist = HiddenPeople()
+guesslist = HiddenPeople()
 
-peoplelist.printpeople()
-
-peoplelist.removeperson('Claire')
+guess = input("Please choose an attribute: ")
+print("------")
+peoplelist.removeperson(guess)
 
 peoplelist.printpeople()
